@@ -1,0 +1,30 @@
+# Local runtime and credentials
+.venv/
+.wallet/
+**/__pycache__/
+**/node_modules/
+**/.runtime/
+**/data/
+**/.state/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.log
+*.lock
+!requirements.lock
+!**/package-lock.json
+/archive/
+/tools/cloudflared
+/scout/demo-stock.json
+/card-funding-test/evidence/
+
+# Generated browser checks
+/scout/*.png
+/scout/*-verification.json
+/scout/verification.json

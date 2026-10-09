@@ -1,0 +1,54 @@
+{
+  "repository": "https://github.com/payward/kwal-skill",
+  "commit": "be5f52c90edea8d2dbb07e38395af2388ae10ce1",
+  "files": [
+    {
+      "path": "skills/agent-payment/scripts/_fields.py",
+      "sha256": "34d0cd9caa8ea14e052ebf1ee5d956962aad89bb8d1d6541b129d4850a98cf8e"
+    },
+    {
+      "path": "skills/agent-payment/scripts/amounts.py",
+      "sha256": "5c76efbfd13c24bc01897e16859eb3e3e8f0c4a75eff2edf16cfec09fe4c08f6"
+    },
+    {
+      "path": "skills/agent-payment/scripts/catalog.py",
+      "sha256": "64328fa47677938704e715a617ff5bb38619b9daf6212417089516e387e564c1"
+    },
+    {
+      "path": "skills/agent-payment/scripts/checkout.py",
+      "sha256": "3c6c8fc897229caa7199b4f6b3c223c52037c6a82b7ec8b2ad82be414a2de94f"
+    },
+    {
+      "path": "skills/agent-payment/scripts/cli_support.py",
+      "sha256": "b9bad535971dfb7072c1e734ea96fa03e0205907157e075390f5bb5384124476"
+    },
+    {
+      "path": "skills/agent-payment/scripts/errors.py",
+      "sha256": "b1bc010a824ea91ec2122103a9734c8d049dcc92c819844e7335d3daf49c27f0"
+    },
+    {
+      "path": "skills/agent-payment/scripts/pws_client.py",
+      "sha256": "2d7c3b02fe5036f45f78d57ac61df3ed0664e55fe5ab87116a01791488e7ddfb"
+    },
+    {
+      "path": "skills/agent-payment/scripts/quotes.py",
+      "sha256": "5630b944cbd600d403659a076a7de6d43ce452528a2186af24182e64e00cacc5"
+    },
+    {
+      "path": "skills/agent-payment/scripts/register.py",
+      "sha256": "dbc09fd0b4e6b1a7032b0954766720c43d62d89e008fff4edebb2270a68eefc9"
+    },
+    {
+      "path": "skills/agent-payment/scripts/session.py",
+      "sha256": "bf2e83978a95f09a2562681dc16737d81f047c1c7f09044a6cbcc02dd2aff783"
+    },
+    {
+      "path": "skills/agent-payment/scripts/transport.py",
+      "sha256": "2909570f06a899023b74259cdbb8d87bb8f39b13d73dd4e810c36980906d84ca"
+    },
+    {
+      "path": "skills/agent-payment/scripts/vault.py",
+      "sha256": "3ce2efa9ebc8caff93bb5352b2e72d27a2546e3be6f09a05971400c4607d4c27"
+    }
+  ]
+}

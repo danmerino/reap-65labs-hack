@@ -1,0 +1,120 @@
+{
+  "mode": "demo",
+  "schema_version": 1,
+  "products": [
+    {
+      "id": "matcha-watch",
+      "sku": "AQ-230ECK-3A",
+      "price_sgd_cents": 24000,
+      "stock": 10,
+      "target_stock": 10,
+      "restock_batch": 2,
+      "suppliers": {
+        "europe": {
+          "stock": 12,
+          "buy_sgd_cents": 14500,
+          "price_minor": 9990,
+          "currency": "EUR"
+        },
+        "us": {
+          "stock": 12,
+          "buy_sgd_cents": 16500,
+          "price_minor": 12200,
+          "currency": "USD"
+        },
+        "australia": {
+          "stock": 12,
+          "buy_sgd_cents": 21500,
+          "price_minor": 24900,
+          "currency": "AUD"
+        }
+      }
+    },
+    {
+      "id": "raspberry-pi-5",
+      "sku": "DEMO-PI5-8GB",
+      "price_sgd_cents": 18000,
+      "stock": 8,
+      "target_stock": 8,
+      "restock_batch": 2,
+      "suppliers": {
+        "europe": {
+          "stock": 12,
+          "buy_sgd_cents": 12000,
+          "price_minor": 12000,
+          "currency": "SGD"
+        },
+        "us": {
+          "stock": 12,
+          "buy_sgd_cents": 12500,
+          "price_minor": 12000,
+          "currency": "SGD"
+        },
+        "australia": {
+          "stock": 12,
+          "buy_sgd_cents": 12500,
+          "price_minor": 12000,
+          "currency": "SGD"
+        }
+      }
+    },
+    {
+      "id": "keyboard-kit",
+      "sku": "DEMO-KEYBOARD-KIT",
+      "price_sgd_cents": 29000,
+      "stock": 6,
+      "target_stock": 6,
+      "restock_batch": 1,
+      "suppliers": {
+        "europe": {
+          "stock": 12,
+          "buy_sgd_cents": 22000,
+          "price_minor": 22000,
+          "currency": "SGD"
+        },
+        "us": {
+          "stock": 12,
+          "buy_sgd_cents": 22500,
+          "price_minor": 22000,
+          "currency": "SGD"
+        },
+        "australia": {
+          "stock": 12,
+          "buy_sgd_cents": 22500,
+          "price_minor": 22000,
+          "currency": "SGD"
+        }
+      }
+    },
+    {
+      "id": "raspberry-pi-zero",
+      "sku": "DEMO-PI-ZERO-2W",
+      "price_sgd_cents": 4500,
+      "stock": 16,
+      "target_stock": 16,
+      "restock_batch": 2,
+      "suppliers": {
+        "europe": {
+          "stock": 12,
+          "buy_sgd_cents": 2800,
+          "price_minor": 2800,
+          "currency": "SGD"
+        },
+        "us": {
+          "stock": 12,
+          "buy_sgd_cents": 3300,
+          "price_minor": 2800,
+          "currency": "SGD"
+        },
+        "australia": {
+          "stock": 12,
+          "buy_sgd_cents": 3300,
+          "price_minor": 2800,
+          "currency": "SGD"
+        }
+      }
+    }
+  ],
+  "orders": [],
+  "restocks": []
+}

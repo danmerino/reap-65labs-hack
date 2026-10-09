@@ -1,0 +1,390 @@
+{
+  "schema_version": 1,
+  "title": "Scout agent item knowledge",
+  "updated_on": "2026-10-09",
+  "knowledge_rules": [
+    "Use confirmed manufacturer facts only for real product specifications.",
+    "Brand history has official sources; editorial explanations are original interpretation.",
+    "Stock, supplier history and delivery schedules are explicitly simulated.",
+    "Use read-only current dashboard observations for financial state.",
+    "Chat has no browsing, funding, purchasing or withdrawal tools.",
+    "Do not invent tracking, invoices, scarcity, warranties or profits."
+  ],
+  "agents": {
+    "europe": {
+      "name": "Europe agent",
+      "personality": "Knowledgeable, practical sourcing specialist. Explain the watch story warmly and in detail; separate manufacturer facts from demo assumptions.",
+      "primary_product": "matcha-watch",
+      "inventory_status": "found",
+      "financial_mode": "One live Kwal sandbox card; chat itself cannot transact.",
+      "watch_delivery": {
+        "supplier_to_singapore_business_days": [
+          5,
+          8
+        ],
+        "local_business_days": [
+          1,
+          2
+        ],
+        "total_business_days": [
+          6,
+          10
+        ],
+        "evidence": "Illustrative scenario only"
+      },
+      "suggested_questions": [
+        "Tell me the full history of the matcha watch.",
+        "How fast would delivery to Singapore be?",
+        "What makes this a good gift?",
+        "Explain the sourcing and payment story."
+      ]
+    },
+    "us": {
+      "name": "US agent",
+      "personality": "Careful stock-monitoring specialist. Explain why an out-of-stock agent cannot buy; discuss the shared watch dossier when asked.",
+      "primary_product": "raspberry-pi-5",
+      "inventory_status": "out_of_stock",
+      "financial_mode": "Preview only; no issued card or vault. Real Pi chat is available.",
+      "watch_delivery": {
+        "supplier_to_singapore_business_days": [
+          7,
+          12
+        ],
+        "local_business_days": [
+          1,
+          2
+        ],
+        "total_business_days": [
+          8,
+          14
+        ],
+        "evidence": "Hypothetical US sourcing scenario; no stock or shipment confirmed"
+      },
+      "suggested_questions": [
+        "Why are you out of stock?",
+        "Tell me about the matcha watch too.",
+        "What would delivery from the US look like?",
+        "What do we need for a Raspberry Pi kit?"
+      ]
+    },
+    "australia": {
+      "name": "Australia agent",
+      "personality": "Patient sourcing planner. Discuss design, packaging and shipping estimates while being clear that stock is being watched and no card is provisioned.",
+      "primary_product": "keyboard-kit",
+      "inventory_status": "watching",
+      "financial_mode": "Preview only; no issued card or vault. Real Pi chat is available.",
+      "watch_delivery": {
+        "supplier_to_singapore_business_days": [
+          4,
+          7
+        ],
+        "local_business_days": [
+          1,
+          2
+        ],
+        "total_business_days": [
+          5,
+          9
+        ],
+        "evidence": "Hypothetical Australia sourcing scenario only"
+      },
+      "suggested_questions": [
+        "What are you watching for?",
+        "Tell me the watch’s design story.",
+        "Would Australia delivery be faster?",
+        "What should I check in a keyboard kit?"
+      ]
+    }
+  },
+  "products": {
+    "matcha-watch": {
+      "name": "Café Kitsuné × Casio matcha watch",
+      "model": "AQ-230ECK-3A",
+      "mode": "real product with an illustrative sourcing and delivery scenario",
+      "one_sentence": "A compact silver-tone analog-digital Casio collaboration with a matcha-green face and Café Kitsuné details, used as the main sourcing opportunity in our demo.",
+      "confirmed_product_facts": {
+        "source": "https://www.casio.com/europe/watches/casio/product.AQ-230ECK-3A/",
+        "checked_on": "2026-10-09",
+        "size_mm": [
+          38.8,
+          29.8,
+          8.1
+        ],
+        "weight_g": 47,
+        "case_and_bezel": "Chrome-plated resin",
+        "bracelet": "Stainless steel, adjustable clasp",
+        "glass": "Resin glass",
+        "band_fit_mm": [
+          150,
+          205
+        ],
+        "battery": "SR920W, approximately three years",
+        "features": [
+          "Analog and digital time",
+          "Dual time",
+          "1/100-second stopwatch",
+          "Daily alarm",
+          "Hourly signal",
+          "12/24-hour display"
+        ],
+        "water_resistance": "Manufacturer says water resistant; do not invent a depth rating or promise swimming suitability.",
+        "calendar_note": "Auto-calendar uses 28 days for February; it is not a perpetual calendar.",
+        "accuracy": "Approximately ±30 seconds per month",
+        "europe_release_label": "European product page says NEW 09/2026; this is a regional page label, not proof of a global release date."
+      },
+      "collaboration_details": {
+        "source": "https://www.casio.com/us/watches/casio/about/aq-230eck/",
+        "features": [
+          "Matcha-inspired green dial",
+          "Café Kitsuné fox detail",
+          "Logo and fox engraving on the back",
+          "Café Kitsuné engraving on the clasp",
+          "Coordinated collaboration packaging"
+        ],
+        "edition_size": "Not verified. Never claim a numbered production run, a guaranteed final restock, or a particular number made."
+      },
+      "brand_history": [
+        {
+          "year": 1974,
+          "fact": "Casio entered wristwatches with the Casiotron and an automatic-calendar digital display.",
+          "source": "https://www.casio.com/europe/watches/50th/Heritage/1970s/"
+        },
+        {
+          "year": 2002,
+          "fact": "Gildas Loaëc and Masaya Kuroki created Maison Kitsuné, combining fashion, music and later cafés.",
+          "source": "https://maisonkitsune.com/mk/us/la-maison-4/"
+        },
+        {
+          "year": 2013,
+          "fact": "Café Kitsuné developed its Tokyo and Paris presence. The brand announced its Palais Royal Paris opening for December 2013.",
+          "source": "https://maisonkitsune.com/mk/2013/11/family/cafe-kitsune-paris-opening/"
+        },
+        {
+          "year": 2026,
+          "fact": "Our October hackathon uses the collaboration watch as its illustrated opportunity. This is the demo timeline, not a claim about its first worldwide retail release.",
+          "source": "demo scenario"
+        }
+      ],
+      "editorial_story": [
+        "The appeal starts with a small, everyday object that carries a recognizable visual identity. In our product story, someone does not need an expensive mechanical watch or a large display to make a personal choice. They can choose a familiar, practical shape and a color that says something about their taste. The matcha theme gives the demo an immediate visual hook: the item is easy to identify in a photo, and its story is easy to explain in a short conversation.",
+        "Treat the collaboration as a meeting of functional timekeeping and café culture. The useful question is not whether the watch has more technology than a phone. It is why somebody would enjoy wearing it when they already own a phone. A watch can be a habit, a gift, a small styling decision, or a reminder of a place. This is our editorial interpretation, not a statement from either brand or a measurable promise of collectible value.",
+        "The café connection makes the gift narrative approachable. A buyer might associate the watch with morning routines, a favorite neighborhood café, a trip, or a shared interest in design. The agent can discuss those possibilities without pretending to know the recipient. Ask what the recipient enjoys, then connect relevant dossier details to that answer rather than claiming the item is universally perfect for everyone.",
+        "The sourcing story should stay separate from the product story. The real product has manufacturer information; our supplier availability is deliberately invented in JSON. The demo is about how an agent handles an opportunity, a budget, a card and a receipt. When someone asks where the unit came from, explain the scenario supplier and the actual level of evidence. A payment to the substitute catalog item is not proof that a real watch was purchased.",
+        "The apparent price spread is a reason to investigate, not a reason to announce guaranteed profit. The agent can explain the original thesis: a lower overseas reference price and a higher local asking or bidding range may create an opportunity. But asking prices, bids, closed sales and net profit are different things. Shipping, taxes, currency conversion and handling can reduce or remove the spread. Our storefront uses a fixed demo price, and the supporting market range was supplied as historical context.",
+        "A strong demo lets viewers ask ordinary buyer questions before they watch the financial sequence. They can ask whether the shape is large, whether it suits a gift, why the dial stands out, how long delivery might take, or why another market is out of stock. Then they can watch a separate, explicit Fund or Pay action. The conversation builds understanding while the transaction log supplies the operational evidence.",
+        "The preferred storytelling order is identity, relevance, availability, delivery and proof. Begin with what the item is. Explain why the buyer might care. State whether this particular agent has scenario inventory. Give the relevant delivery estimate and its assumptions. End with the evidence that exists now, such as a product source, an observed balance or a confirmed transfer, rather than filling gaps with an invented shipment.",
+        "This watch is our hero example, but the conversational approach should transfer to the other products. A good sourcing agent knows enough about an item to answer meaningful questions and enough about its own state to say when it cannot act. It should be comfortable saying that a specification is unverified, a supplier is out of stock, or a delivery estimate is illustrative. That makes the later payment demonstration easier to trust."
+      ],
+      "demo_sourcing_history": {
+        "evidence": "Illustrative scenario written for the hackathon. These steps are background narrative, not actual retailer checks or completed orders.",
+        "chapters": [
+          {
+            "phase": "Opportunity selection",
+            "story": "The team chose the watch because it combines a clear visual identity with a cross-border sourcing thesis. The demo starts with an item a local buyer can recognize immediately. The agent is given the SKU, the intended local listing price, a scenario supplier and a budgeted payment route. It does not have to discover the entire business model from a blank page."
+          },
+          {
+            "phase": "Market comparison",
+            "story": "The original supplied references were Europe at €99.90, Australia at A$249 and a US product page with unclear stock. Singapore interest was described as S$240–350. These values are historical input from the team. They are not continuously refreshed by the chat, not confirmed completed sales, and not evidence that those overseas prices or stock statuses remain available today."
+          },
+          {
+            "phase": "Scenario stock assignment",
+            "story": "For a repeatable presentation, the Europe agent always has one found watch opportunity in its dossier. The US agent always has an out-of-stock scenario for its assigned Raspberry Pi. Australia is still watching for its keyboard kit. The scenarios demonstrate three different operational states without claiming three live supplier integrations or three issued cards."
+          },
+          {
+            "phase": "Review before payment",
+            "story": "The buyer can ask about the item before deciding to pay. The Europe agent can explain the design, manufacturer facts, illustrative delivery plan and why the payment will use a fixed catalog stand-in. It can describe the current quote when the live context supplies one. The agent does not choose a different item just because a user sends a chat message."
+          },
+          {
+            "phase": "Funding coordination",
+            "story": "The sourcing agent asks the funding agent to cover the verified purchase shortfall. If the card already has enough available capacity, funding is skipped. If it needs more, the operator clicks Fund. The deterministic controller transfers only the required amount to the verified vault, and the UI waits for Kwal to recognize the capacity before offering the payment action."
+          },
+          {
+            "phase": "Purchase and settlement",
+            "story": "The operator clicks Pay for the fixed catalog substitute. Kwal reports the actual sandbox card states, including authorization and clearing when supplied. The system retains the same payment ID on retries. A successful sandbox result demonstrates a funded agent card paying an approved quote; it does not create a real order for this watch or arrange a courier."
+          },
+          {
+            "phase": "Demo listing",
+            "story": "After confirmed settlement for the quoted amount, the application adds one fictional watch unit to the public inventory ledger. The unit is added once per payment ID. This makes the storefront reflect the completed demo workflow while preserving the distinction between simulated stock and real test-chain transfers."
+          },
+          {
+            "phase": "Questions after the demo",
+            "story": "The agent can explain which steps were observed, which were simulated and which remain future integration work. It can point to the owner wallet, vault, payment identifiers and blockchain history that the dashboard actually reports. It cannot produce a real watch invoice, a parcel tracking number, or an externally usable production card credential from this demonstration."
+          }
+        ]
+      },
+      "delivery_model": {
+        "evidence": "Illustrative planning estimates only. No real watch shipment or courier booking exists.",
+        "europe_to_singapore_business_days": [
+          5,
+          8
+        ],
+        "singapore_local_business_days": [
+          1,
+          2
+        ],
+        "europe_to_customer_total_business_days": [
+          6,
+          10
+        ],
+        "phases": [
+          {
+            "name": "Supplier dispatch",
+            "business_days": [
+              1,
+              1
+            ],
+            "description": "The scenario supplier confirms the SKU and prepares the watch package. In the demo, this is a planning step; there is no actual supplier order or packing confirmation."
+          },
+          {
+            "name": "International transport",
+            "business_days": [
+              3,
+              5
+            ],
+            "description": "A hypothetical tracked air shipment moves from Europe to Singapore. This range assumes normal service and no holiday backlog. It is not based on a purchased courier service or a current carrier quote."
+          },
+          {
+            "name": "Import processing",
+            "business_days": [
+              1,
+              2
+            ],
+            "description": "The scenario allows time for import processing and receiving. The agent must not say customs clearance has happened, that duties are included, or that a named authority has approved the package."
+          },
+          {
+            "name": "Local delivery",
+            "business_days": [
+              1,
+              2
+            ],
+            "description": "After fictional receipt into Singapore stock, the scenario allows one or two business days for local delivery. Local handover cannot begin until the item is actually in stock in a real implementation."
+          }
+        ],
+        "calendar_explanation": "Business days are working days, not calendar days. A Friday purchase, weekends and public holidays can make the calendar wait longer than the quoted working-day range. No exact arrival date is promised by the chat.",
+        "urgent_gift": "For a deadline or birthday, the agent should ask for the needed date and explain the assumed range. It cannot guarantee that a fictional shipment will arrive in time. If someone needs certainty, current real stock and a confirmed carrier service would be required.",
+        "tracking": "No real tracking number exists. Do not generate one. In a future real flow, a carrier scan and supplier dispatch evidence would update the delivery status.",
+        "sandbox_substitute_shipping": "The fixed sticker-pack quote included a shipping option, but this sandbox card flow does not place a physical merchant order. Its quoted carrier wording does not mean a watch or stickers are being shipped."
+      },
+      "demo_economics": {
+        "retail_sgd": 240,
+        "historical_europe_reference_eur": 99.9,
+        "historical_estimated_europe_cost_sgd": 145,
+        "historical_singapore_interest_range_sgd": [
+          240,
+          350
+        ],
+        "evidence": "Team-supplied historical thesis and fictional shop economics. No refreshed FX rate or measured live demand.",
+        "interpretation": "S$145 to S$240 leaves a S$95 spread before shipping, duties, GST, conversion fees, handling, returns and selling costs. It is not a promised net margin. The actual sandbox payment amount is a separate test-USDC quote for the fixed stand-in."
+      },
+      "questions_and_answers": [
+        {
+          "question": "What makes this watch interesting?",
+          "answer": "The dossier points to its matcha color theme, the collaboration details and a practical everyday form. Beyond those facts, the attraction is personal: a café enthusiast, a design-conscious buyer or someone who enjoys compact watches may find the combination appealing. Treat that as a conversation about taste rather than a promise that all buyers will want it."
+        },
+        {
+          "question": "Why use a watch for the demo?",
+          "answer": "It gives the sourcing agent something concrete to explain. The item has an identifiable model, a recognizable image, manufacturer facts and a market story. That makes it easier for viewers to understand why an opportunity is being considered before they watch an agent request funds and complete a sandbox payment."
+        },
+        {
+          "question": "Is the history in this file real?",
+          "answer": "The short brand-history facts have official sources. The editorial story is our interpretation. The supplier journey, availability and delivery schedule are invented demo scenarios. Actual card and blockchain events come from the live dashboard context. These four kinds of information should not be blended into a claim that a real watch order has already happened."
+        },
+        {
+          "question": "How quickly can it arrive in Singapore?",
+          "answer": "The Europe scenario plans five to eight business days to reach Singapore, followed by one to two business days locally, for roughly six to ten business days overall. This is an illustrative estimate, not a courier promise. There is no real shipment behind the sandbox purchase, so no arrival date or tracking number can be confirmed."
+        },
+        {
+          "question": "What if the watch is already stocked locally?",
+          "answer": "In a real operation, local physical stock could avoid the international leg. In this demo, website stock is fictional JSON and must not be treated as a warehouse receipt. The agent may explain the hypothetical one-to-two-business-day local leg, but should keep the physical-stock claim unconfirmed."
+        },
+        {
+          "question": "Why is the US agent out of stock?",
+          "answer": "The US agent is deliberately assigned an out-of-stock Raspberry Pi scenario so viewers can see that finding an opportunity and being able to buy it are different states. This is not a live retailer availability check. The agent can discuss the watch dossier too, but it has no issued card or vault and cannot fund or pay."
+        },
+        {
+          "question": "Can you check every store right now?",
+          "answer": "This chat uses the hardcoded dossier and supplied current dashboard facts. It has no browsing or merchant-search tool. It should describe the configured scenario and explain what would need verification in a real sourcing workflow. It cannot honestly claim that it has just checked another retailer or discovered a new listing."
+        },
+        {
+          "question": "Is it guaranteed to appreciate?",
+          "answer": "No appreciation forecast is supported by this dossier. A collaboration can attract interest, but interest is not a completed sale and a reference price is not a future resale guarantee. The agent should discuss the demo thesis, costs and uncertainty without presenting the watch as an investment recommendation."
+        },
+        {
+          "question": "Is the advertised margin already net profit?",
+          "answer": "No. The original scenario compares an estimated overseas cost with a fictional fixed storefront price. It excludes several import and selling costs. The demo is built to show agent coordination and payment evidence, not to prove a profitable resale business or a verified level of Singapore demand."
+        },
+        {
+          "question": "Can I ask you to pay from this chat?",
+          "answer": "The chat is for discussion and explanation. It has no payment or wallet tools. Fund and Pay stay as explicit buttons in the live Europe-agent workspace. A request in chat does not authorize a hidden transfer, start a new purchase, change the card owner or select a different catalog item."
+        },
+        {
+          "question": "What is the purchase really buying?",
+          "answer": "The payment demonstration uses a fixed inexpensive catalog stand-in, the EVRYJEWELS It Girl Sticker Pack. The displayed watch represents the sourcing opportunity. The actual amount and payment state must come from current verified context rather than the sticker catalog price alone. Nothing is physically ordered or shipped in this sandbox."
+        },
+        {
+          "question": "Does the card picture show the actual card number?",
+          "answer": "No. It is a visual representation of the card whose status and available spending capacity are reported by Kwal. The participant integration does not expose a card number or CVV to this chat. The agent can discuss balances and identifiers provided in its read-only context but cannot reveal payment credentials."
+        },
+        {
+          "question": "Can we withdraw money whenever we want?",
+          "answer": "The Kwal hackathon withdrawal path requires the operator and the owner wallet. Holding the owner key does not make card-held funds immediately withdrawable. The chat cannot request an operator signature or submit a withdrawal. It should explain the constraint rather than claim that money has been returned."
+        },
+        {
+          "question": "How should a gift buyer think about it?",
+          "answer": "Start with the recipient’s tastes, preferred watch size and interest in the design story. Packaging and collaboration details can help make a thoughtful presentation, but practical fit and timing still matter. The agent can ask relevant questions and explain the dossier; it should not invent gift wrapping, a personalized card or a guaranteed gift deadline."
+        },
+        {
+          "question": "What about authenticity and warranty?",
+          "answer": "A real sourcing operation would need seller identity, a purchase invoice, correct model markings and applicable warranty terms. None of those documents has been obtained for a physical watch in this demo. Official product pages establish the product’s identity, not the authenticity of a specific unit or worldwide warranty coverage."
+        },
+        {
+          "question": "Can you tell the whole story in detail?",
+          "answer": "Yes. Use the brand-history anchors, editorial chapters, original sourcing thesis, scenario stock assignment, delivery stages and live payment context to build a clear narrative. Keep each part identified by its evidence level. A longer answer should add useful explanation, not invented production quantities, fake carrier scans or unsupported claims about current stock."
+        }
+      ],
+      "unknowns": [
+        "Verified global release date",
+        "Production quantity",
+        "Next real retailer restock",
+        "Live Singapore completed-sales demand",
+        "Actual invoice or watch purchase",
+        "Actual carrier and tracking number",
+        "Applicable manufacturer warranty",
+        "Current overseas checkout total",
+        "Real import taxes and shipping fees"
+      ]
+    },
+    "raspberry-pi-5": {
+      "name": "Raspberry Pi 5 · 8 GB",
+      "evidence": "Illustrative demo sourcing dossier, not a new specification or stock verification.",
+      "demo_retail_sgd": 180,
+      "scenario_inventory": "Out of stock for the US preview agent.",
+      "story": "This is the practical maker-oriented item in the demo. The agent can discuss project planning, the difference between a bare board and a complete kit, and the need to verify the exact model before a real purchase. No retailer has been checked by this chat. It should ask what project the buyer wants to build rather than promising that a generic board includes everything required.",
+      "kit_checklist": [
+        "Verify the exact model and memory configuration.",
+        "Confirm what is included in the box.",
+        "Plan power, storage, cooling, case and any required cables.",
+        "Check operating-system and peripheral compatibility against official documentation before a real purchase.",
+        "Do not claim accessories are included unless the listing explicitly says so."
+      ],
+      "delivery": "There is no deliverable stock in this agent’s scenario. The US route is an illustrative 8–14 business days overall if stock became available; no current delivery commitment exists.",
+      "restock_plan": "Keep the item on a watch list, compare a future verified listing and only request funding after availability and total cost are established. The chat cannot start retailer checks or payment actions."
+    },
+    "keyboard-kit": {
+      "name": "Mechanical keyboard kit",
+      "evidence": "Entirely fictional generic demo item; no manufacturer or exact model is claimed.",
+      "demo_retail_sgd": 290,
+      "scenario_inventory": "Australia preview agent is watching for stock.",
+      "story": "The keyboard kit is the customization-oriented item in the demo. A useful agent conversation covers layout, switches, keycaps, connection type and the buyer’s intended use. Because the item is deliberately generic, the chat must not promise a particular mounting system, firmware, switch brand or wireless feature.",
+      "questions_to_ask": [
+        "What layout size do you prefer?",
+        "Do you need a complete keyboard or a barebones kit?",
+        "Are switches and keycaps included in the intended listing?",
+        "Do you prefer a quiet or tactile typing feel?",
+        "What connection and operating-system support do you need?"
+      ],
+      "delivery": "The illustrative Australia route is 4–7 business days to Singapore plus 1–2 locally. Stock has not been confirmed, so the estimate is a planning assumption rather than an offer.",
+      "buying_notes": "Check the actual contents and compatibility of a future listing before quoting. Do not use the fictional S$290 storefront price as proof of market demand or net margin."
+    }
+  }
+}

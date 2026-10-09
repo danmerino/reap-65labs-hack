@@ -1,0 +1,15 @@
+{
+  "name": "pi-durable-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": ".runtime/node_modules/.bin/node --check scout-dialogue.mjs && .runtime/node_modules/.bin/node --check scout-chat.mjs",
+    "legacy:start": ".runtime/node_modules/.bin/node ../archive/durable-demo/server.mjs",
+    "legacy:verify": ".runtime/node_modules/.bin/node ../archive/durable-demo/verify.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/chord": "1.1.0",
+    "@earendil-works/pi-ai": "1.1.0",
+    "@earendil-works/pi-durable": "1.1.0"
+  }
+}
